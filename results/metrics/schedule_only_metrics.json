@@ -1,0 +1,39 @@
+{
+  "experiment": "Schedule-only Logistic Regression",
+  "train_period": "2025-01-01 to 2025-02-28",
+  "test_period": "2025-03-01 to 2025-03-31",
+  "train_rows": 1018745,
+  "test_rows": 592301,
+  "accuracy": 0.5435276995986837,
+  "precision": 0.2473304974390138,
+  "recall": 0.679519796470027,
+  "f1": 0.3626604434072345,
+  "roc_auc": 0.6274753703677131,
+  "confusion_matrix": [
+    [
+      245009,
+      234090
+    ],
+    [
+      36279,
+      76923
+    ]
+  ],
+  "features": [
+    "Year",
+    "Quarter",
+    "Month",
+    "DayofMonth",
+    "DayOfWeek",
+    "Reporting_Airline",
+    "Flight_Number_Reporting_Airline",
+    "Origin",
+    "Dest",
+    "CRSDepTime",
+    "CRSArrTime",
+    "CRSElapsedTime",
+    "Distance",
+    "DepartureHour",
+    "DepartureMinute"
+  ]
+}

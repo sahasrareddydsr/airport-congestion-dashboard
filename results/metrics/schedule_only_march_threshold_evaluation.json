@@ -1,0 +1,40 @@
+{
+  "threshold_0.50": {
+    "threshold": 0.5,
+    "accuracy": 0.5435276995986837,
+    "precision": 0.2473304974390138,
+    "recall": 0.679519796470027,
+    "f1": 0.3626604434072345,
+    "confusion_matrix": [
+      [
+        245009,
+        234090
+      ],
+      [
+        36279,
+        76923
+      ]
+    ]
+  },
+  "february_selected_threshold": {
+    "threshold": 0.45,
+    "accuracy": 0.4581572545040444,
+    "precision": 0.23289066277144002,
+    "recall": 0.7999858659740994,
+    "f1": 0.3607580061108964,
+    "confusion_matrix": [
+      [
+        180807,
+        298292
+      ],
+      [
+        22642,
+        90560
+      ]
+    ]
+  },
+  "march_roc_auc": 0.6274753703677131,
+  "threshold_selected_on_february": 0.45,
+  "test_period": "2025-03-01 to 2025-03-31",
+  "test_rows": 592301
+}
